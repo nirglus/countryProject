@@ -1,7 +1,183 @@
 body {
     margin:0;
     padding: 0;
+    font-family: 'Exo 2', sans-serif;
 }
-img{
-    height: 10rem;
+header {
+    background-color: #404da3;
+    height: 5rem;
+}
+.flag, table img{
+    height: 5rem;
+    float:right;
+    display: flex;
+}
+section{
+    background-color: #f1f7ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/* Navbar  */
+.top-heading{
+    color: #fff;
+    text-align: left;
+    width: 8rem;
+    position:absolute;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 4px 4px 6px #2124f5;
+}
+nav{
+    width:18rem;
+    margin:auto;
+    padding-top:0.5rem;
+    position:relative;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding:0.1rem;
+    
+}
+nav a{
+    text-decoration:none;
+}
+nav a:hover{
+    color: #2124f5;
+}
+/* Home page */
+.index-sec{
+    height: 28rem;
+    padding: 2rem;
+}
+.img1,.img2{
+    height:20rem;
+
+}
+.img2{
+    margin-left:14rem;
+}
+.sec-imgs{
+    display: inline-block;
+}
+/* Cities page */
+table{
+    margin: auto;
+    text-align: left;
+    padding: 1rem;
+    border-collapse: separate;
+}
+th{
+    padding:0.5rem;
+}
+td{
+    padding: 1.5rem;
+    background-color: #bfd7f6;
+    border-spacing: 2rem;
+}
+td img:hover{
+    transform: scale(1.5);
+}
+
+/* Media page */
+h1{
+    text-align: center;
+    margin: auto;
+}
+.row{
+    padding: 1rem;
+}
+.underline-border{
+    width: 2rem;
+    height: 0.2rem;
+    background: #2124f5;
+    margin: auto;
+}
+video{
+    height:18rem;
+    width:25rem;
+}
+.col{
+    width: 33.33%;
+    display: inline;
+    margin: auto;
+    padding-left: 0.5rem;
+}
+/* Contact page */
+.contact{
+    max-width: 40rem;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.form-text{
+    display: block;
+    width: 90%;
+    margin: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    border: 0;
+    border-radius: 1%;
+}
+.submit-button{
+    float: right;
+    border: 0;
+    border-radius: 1%;
+    padding: 1rem 1.5rem;
+    margin-right: 2.2rem;
+    background-color: #fff;
+ }
+ .submit-button:hover{
+    background-color: #404da3;
+    color: #fff;
+ }
+
+/*Footer */
+
+footer{
+    background-color: #404da3;
+    height: 15rem;
+    margin: auto;
+    width:100%;
+    display: flexbox;
+}
+details{
+    padding-top: 3rem;
+    width: 17rem;
+    margin: auto;
+}
+details > summary {
+    list-style-type: none;  
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+ details ul{
+    list-style: none;
+  }
+li a{
+    color: #fff;
+}  
+details li::before {
+    content: "• ";
+    color: #2124f5;
+}
+.icons{
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+.icons a{
+    padding: 1rem;
+    
+    text-decoration: none;
+    color:#fff;
+}
+.icons a:hover{
+    color: #2124f5;
+}
+footer p {
+    word-spacing: 0.5rem;
+    text-align: center;
+    font-size: smaller;
+    color:#fff;
 }

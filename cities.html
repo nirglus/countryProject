@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cities</title>
+    <title>Israel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/800px-Flag_of_Israel.svg.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="cities.html">Cities</a></li>
-              <li><a href="media.html">Media</a></li>
-            </ul>
-          </div>
-        <h1>Israel</h1>
         <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/800px-Flag_of_Israel.svg.png" alt="israel-flag">
-    </header>
+        <h1 class="top-heading">Israel</h1>
+        <nav class="navbar">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="cities.html">Cities</a></li>
+             <li><a href="media.html">Media</a></li>
+             <li><a href="contact.html">Contact</a></li>
+         </ul>
+        </nav>   
+     </header>
     <section class="cities">
         <h1>Cities</h1>
+        <div class="underline-border"></div>
         <table>
             <thead>
                 <th>City Name</th><th>Citizen</th><th>Emblem</th><th>Famous Teams</th>
@@ -44,10 +49,23 @@
 
     </section>
     <footer>
-        <p>nirgluskin@gmail.com</p>
-        <p><a href="https://github.com/nirglus">GitHub</a></p>
-
+        <details>
+            <summary>Checkout my projects on GitHub <i class="fa fa-hand-o-down"></i></summary>
+            <ul>
+                <li><a href="http://nirglus.github.io/Hotel-Site-Design/">A Hotel website</a></li>
+                <li><a href="http://">Country project</a></li>
+                <li><a href="https://nirglus.github.io/myProject/">About myself website</a></li>
+            </ul>
+        </details>
+        <div class="icons">
+            <a class="fa fa-facebook-official" href="https://www.facebook.com/nirgluskin/"></a>
+            <a class="fa fa-instagram" href="https://www.instagram.com/nirgluskin/"></a>
+            <a class="fa fa-envelope" href="mailto:nirgluskin@gmail.com"></a>
+            <a class="fa fa-github" href="https://github.com/nirglus"></a>
+        </div>
+        <p><em>Nir Gluskin © 2023</em></p>
     </footer>
+    
     
 </body>
 </html>
