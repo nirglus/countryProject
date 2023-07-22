@@ -25,6 +25,7 @@ section{
     position:absolute;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 4px 4px 6px #2124f5;
+    margin: 1rem;
 }
 nav{
     width:18rem;
