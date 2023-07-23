@@ -47,19 +47,26 @@ nav a:hover{
     color: #88c4fc;
 }
 /* Home page */
+
 .index-sec{
-    height: 28rem;
-    padding: 2rem;
+    height: 30rem;
+    padding: 3rem;
+}
+.index-sec h1{
+    font-size: xx-large;
+}
+.welcome{
+    margin-bottom: 2rem;
 }
 .img1,.img2{
     height:20rem;
-
 }
 .img2{
-    margin-left:14rem;
+    margin-left:12rem;
 }
 .sec-imgs{
-    display: inline-block;
+    margin-top: 1rem;
+    display: inline-block
 }
 /* Cities page */
 table{
