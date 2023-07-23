@@ -44,7 +44,7 @@ nav a{
     text-decoration:none;
 }
 nav a:hover{
-    color: #2124f5;
+    color: #88c4fc;
 }
 /* Home page */
 .index-sec{
@@ -140,7 +140,7 @@ video{
 
 footer{
     background-color: #404da3;
-    height: 15rem;
+    height: 17rem;
     margin: auto;
     width:100%;
     display: flexbox;
@@ -149,6 +149,9 @@ details{
     padding-top: 3rem;
     width: 17rem;
     margin: auto;
+}
+details summary:hover{
+    color: #88c4fc;
 }
 details > summary {
     list-style-type: none;  
@@ -161,24 +164,27 @@ details > summary {
   }
 li a{
     color: #fff;
-}  
+    text-decoration: none;
+}
+li a:hover{
+    color: #C5DFF8;
+}
 details li::before {
     content: "• ";
-    color: #2124f5;
+    color: #88c4fc;
 }
 .icons{
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
     text-align: center;
 }
 .icons a{
-    padding: 1rem;
-    
+    padding: 1rem; 
     text-decoration: none;
     color:#fff;
 }
 .icons a:hover{
-    color: #2124f5;
+    color: #88c4fc;
 }
 footer p {
     word-spacing: 0.5rem;
