@@ -1,10 +1,11 @@
 body {
+    background-image: url("https://images.unsplash.com/photo-1633821051688-fc558b716185?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=456&q=80");
     margin:0;
     padding: 0;
     font-family: 'Exo 2', sans-serif;
 }
 header {
-    background-color: #404da3;
+    background-color: rgb(64, 77, 163,0.9);
     height: 5rem;
 }
 .flag, table img{
@@ -13,13 +14,14 @@ header {
     display: flex;
 }
 section{
-    background-color: #f1f7ff;
+    background-color: rgb(241, 247, 255,0.5);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 h1:hover{
     text-shadow: 2px 2px 5px #2124f5;
 }
+
 /* Navbar  */
 .top-heading{
     color: #fff;
@@ -77,6 +79,7 @@ table{
     text-align: left;
     padding: 1rem;
     border-collapse: separate;
+    opacity: 0.8;
 }
 th{
     padding:0.5rem;
@@ -85,6 +88,9 @@ td{
     padding: 1.5rem;
     background-color: #bfd7f6;
     border-spacing: 2rem;
+}
+td ul{
+    list-style: none;
 }
 td img:hover{
     transform: scale(1.5);
@@ -128,6 +134,7 @@ video{
     padding: 0.5rem 0.6rem;
     border: 0;
     border-radius: 1%;
+    background-color: rgb(241, 247, 255,0.5);
 }
 .btndiv{
     width:95%;
@@ -138,7 +145,7 @@ video{
     border-radius: 1%;
     padding: 0.5rem;
     margin: 0.2rem 0.2rem;
-    background-color: #fff;
+    background-color: rgb(241, 247, 255,0.5);
     
  }
  .button:hover{
@@ -149,11 +156,11 @@ video{
 /*Footer */
 
 footer{
-    background-color: #404da3;
+    opacity: 0.9;
+    background-color: rgb(64, 77, 163,0.9);
     height: 17rem;
     margin: auto;
     width:100%;
-    display: flexbox;
 }
 details{
     padding-top: 3rem;
