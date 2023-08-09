@@ -72,7 +72,13 @@ section{
  display: flex;
  gap:8vw;
 }
-
+/* Underline border */
+.underline-border{
+    width: 2vw;
+    height: 0.5vh;
+    background: #2124f5;
+    margin: auto;
+}
 /*Footer */
 
 footer{
