@@ -1,0 +1,24 @@
+/* Media page */
+h1{
+    text-align: center;
+    margin: auto;
+}
+.row{
+    padding: 1rem;
+}
+.underline-border{
+    width: 2rem;
+    height: 0.2rem;
+    background: #2124f5;
+    margin: auto;
+}
+video{
+    height:18rem;
+    width:25rem;
+}
+.col{
+    width: 33.33%;
+    display: inline;
+    margin: auto;
+    padding-left: 0.5rem;
+}
