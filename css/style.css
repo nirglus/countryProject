@@ -73,28 +73,6 @@ nav a:hover{
     margin-top: 1rem;
     display: inline-block
 }
-/* Cities page */
-table{
-    margin: auto;
-    text-align: left;
-    padding: 1rem;
-    border-collapse: separate;
-    opacity: 0.8;
-}
-th{
-    padding:0.5rem;
-}
-td{
-    padding: 1.5rem;
-    background-color: #bfd7f6;
-    border-spacing: 2rem;
-}
-td ul{
-    list-style: none;
-}
-td img:hover{
-    transform: scale(1.5);
-}
 
 /*Footer */
 
