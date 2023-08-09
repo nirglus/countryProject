@@ -1,0 +1,32 @@
+/* Contact page */
+.contact{
+    max-width: 40rem;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.form-text{
+    display: block;
+    width: 90%;
+    margin: 0.5rem;
+    padding: 0.5rem 0.6rem;
+    border: 0;
+    border-radius: 1%;
+    background-color: rgb(241, 247, 255,0.5);
+}
+.btndiv{
+    width:95%;
+}
+.button{
+    float: right;
+    border: 0;
+    border-radius: 1%;
+    padding: 0.5rem;
+    margin: 0.2rem 0.2rem;
+    background-color: rgb(241, 247, 255,0.5);
+    
+ }
+ .button:hover{
+    background-color: #404da3;
+    color: #fff;
+ }
