@@ -3,16 +3,23 @@ body {
     margin:0;
     padding: 0;
     font-family: 'Exo 2', sans-serif;
+    width: 100%;
 }
 header {
     background-color: rgb(64, 77, 163,0.9);
-    height: 5rem;
+    height: 12vh;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.flag, table img{
+table img{
     height: 5rem;
     float:right;
     display: flex;
+}
+.flag{
+    order:2;
+    width:7vw;
 }
 section{
     background-color: rgb(241, 247, 255,0.5);
@@ -28,7 +35,11 @@ h1:hover{
     color: #fff;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 2px 2px 5px #2124f5;
-    margin: 1rem;
+    margin: 1%;
+    order:0;
+}
+nav{
+    order: 1;
 }
 nav ul{
     display: flex;
