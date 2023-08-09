@@ -84,7 +84,7 @@ section{
 footer{
     opacity: 0.9;
     background-color: rgb(64, 77, 163,0.9);
-    height: 17rem;
+    height: fit-content;
     margin: auto;
     width:100%;
 }
