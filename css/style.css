@@ -16,6 +16,13 @@ header {
 .flag{
     order:2;
     width:7vw;
+    position: relative;
+    animation: moveFlag 5s ease-in-out 2s infinite alternate;
+    ani
+}
+@keyframes moveFlag{
+    0%{right:0%}
+    100%{right:30vw;}
 }
 h1:hover{
     text-shadow: 2px 2px 5px #2124f5;
@@ -23,11 +30,17 @@ h1:hover{
 
 /* Navbar  */
 .top-heading{
+    position: relative;
     color: #fff;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 2px 2px 5px #2124f5;
     margin: 1%;
     order:0;
+    animation: moveHeading 5s ease-in-out 2s infinite alternate;
+}
+@keyframes moveHeading{
+    0%{left:0%}
+    100%{left:30vw;}
 }
 nav{
     order: 1;
