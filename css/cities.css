@@ -20,3 +20,8 @@ td ul{
 td img:hover{
     transform: scale(1.5);
 }
+table img{
+    height: 5rem;
+    float:right;
+    display: flex;
+}
