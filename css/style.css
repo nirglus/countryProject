@@ -59,9 +59,6 @@ section{
     padding: 3%;
     gap:5vh;
 }
-.welcome{
-    margin: auto;
-}
 .index-sec h1{
     font-size: xx-large;
 }
@@ -74,8 +71,8 @@ section{
 }
 /* Underline border */
 .underline-border{
-    width: 2vw;
-    height: 0.5vh;
+    width: 30px;
+    height: 3px;
     background: #2124f5;
     margin: auto;
 }

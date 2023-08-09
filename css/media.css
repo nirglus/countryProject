@@ -1,11 +1,10 @@
 /* Media page */
-.row{
+.row,.welcome{
     display: flex;
     flex-direction: column;
+    gap:0;
 }
-.row h1{
-    margin:0;
-}
+
 video{
     width: 30vw;
 }
