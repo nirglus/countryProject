@@ -22,6 +22,12 @@ form input{
     background-color: rgb(241, 247, 255,0.5);
     width:40vw;
 }
+.form-text:hover{
+    box-shadow: 1px 1px 3px 2px #404da3;
+}
+::placeholder{
+    color: #404da3;
+}
 .btndiv{
     display: flex;
     justify-content: center;
