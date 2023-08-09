@@ -7,6 +7,7 @@ body {
 header {
     background-color: rgb(64, 77, 163,0.9);
     height: 5rem;
+    display: flex;
 }
 .flag, table img{
     height: 5rem;
@@ -25,25 +26,16 @@ h1:hover{
 /* Navbar  */
 .top-heading{
     color: #fff;
-    text-align: left;
-    width: 8rem;
-    position:absolute;
     font-family: 'Luckiest Guy', cursive;
     text-shadow: 2px 2px 5px #2124f5;
     margin: 1rem;
 }
-nav{
-    width:18rem;
-    margin:auto;
-    padding-top:0.5rem;
-    position:relative;
-    
+nav ul{
+    display: flex;
+    gap: 1vw;
 }
 nav ul li{
     list-style: none;
-    display: inline;
-    padding:0.1rem;
-    
 }
 nav a{
     text-decoration:none;
