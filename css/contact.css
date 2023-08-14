@@ -21,6 +21,7 @@ form input{
     border-radius: 1%;
     background-color: rgb(241, 247, 255,0.5);
     width:40vw;
+    transition: 1s;
 }
 .form-text:hover{
     box-shadow: 1px 1px 3px 2px #404da3;
