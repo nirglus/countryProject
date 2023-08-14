@@ -39,6 +39,7 @@ form input{
     width: 10vw;
     border-radius: 1%;
     background-color: rgb(241, 247, 255,0.5);
+    transition: 1s;
  }
  .button:hover{
     background-color: #404da3;
