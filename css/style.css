@@ -110,6 +110,9 @@ details{
     padding-top: 1%;
     transition: 1s;
 }
+details summary{
+    transition: 1s;
+}
 details summary:hover{
     color: #88c4fc;
 }
