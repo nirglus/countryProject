@@ -18,11 +18,14 @@ header {
     width:7vw;
     position: relative;
     animation: moveFlag 5s ease-in-out 2s infinite alternate;
-    ani
+
 }
 @keyframes moveFlag{
     0%{right:0%}
     100%{right:30vw;}
+}
+h1{
+    transition: 1s;
 }
 h1:hover{
     text-shadow: 2px 2px 5px #2124f5;
