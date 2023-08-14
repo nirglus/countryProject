@@ -44,4 +44,5 @@ form input{
  .button:hover{
     background-color: #404da3;
     color: #fff;
+    cursor: pointer;
  }
